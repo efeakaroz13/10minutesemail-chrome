@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <script src="popup.js"></script>
+    <div class="nav" style="width: 420px;background-color:#502d75;height: 70px;padding-top:10px;margin-left:0px;position: absolute;top:0px;left:0px">
+       <center> <img src="https://10minutesemail.net/assets/img/logo.png" alt="10minutesemail" ></center>
+    </div>
+    <center>
+    <div class="square" style="width: 80%;margin-top:20px;border:2px solid #502d75;border-radius: 2px; height: 250px;">
+        <p style="font-size: 20px;">Welcome to 10minutesemail.net. Your temporary email address was created as it follows:</p>
+        
+        <input type="text" name="" id="theemail" placeholder="E-Mail...">
+        <br>
+        <button>Delete <i class="fas fa-trash"></i></button><button>Copy <i class="fas fa-clipboard"></i></button>
+        
+    </div><br>
+    <div class="inbox">
+        <p style="border-bottom:1px solid #000;font-size:20px; height: 25px;"><i class="fa fa-envelope" aria-hidden="true" style="position: fixed;left:15%;color:#502d75"></i>Inbox</p>
+    </div><br>
+    <div class="autofill" style="font-size:20px">
+        <p>Autofill Forms <input type="checkbox" name="" id="autof"></p>
+    </div>
+</center>
+    <style>
+        body{
+            padding: 0;
+
+            color:black;
+            width: 400px;
+            height: 500px;
+            padding-top:70px;
+
+
+        }
+        #theemail{
+            width: 80%;
+            border-radius: 10px;
+            padding:15px;
+            border:1px solid #502d75;
+
+        }
+        #generate{
+            width:40%;
+            margin-top:10px;
+            height: 60px;
+            border:2px solid #502d75;
+            background:none;
+            border-radius: 10px;
+            color:black;
+            transition:0.4s;
+            margin-left:10px;
+            margin-right: 10px;
+
+
+
+        }
+        #generate:hover{
+            width:40%;
+            margin-top:10px;
+            height: 60px;
+            border:2px solid #fff;
+            background:white;
+            border-radius: 10px;
+            color:#c414fa;
+            transition:0.5s;
+            margin-left:10px;
+            margin-right: 10px;
+            
+
+        } 
+        .inbox{
+            width: 80%;
+            background:white;
+            height: 100px;
+            border:1px solid #502d75;
+
+        }
+        button{
+            background: linear-gradient(#502d75,#9745ef);
+            color:white;
+            border-radius: 5px;
+            margin:10px;
+            font-size:18px;
+            padding:5px;
+            padding-bottom:8px;
+
+        }
+    </style>
+</body>
+</html>
